@@ -59,9 +59,6 @@ endif
 # Misc.
 BOARD_NEEDS_CUTILS_LOG := true
 
-BOARD_SEPOLICY_DIRS += \
-    device/amazon/omap4-common/sepolicy
-
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
 
